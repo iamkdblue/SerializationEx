@@ -11,5 +11,11 @@ public class Employee implements Serializable{
 	   public void mailCheck() {
 	      System.out.println("Mailing a check to " + name + " " + address);
 	   }
+	
+		
+	public String toString(){
+		return "Name :"+name+
+			" Address : "+address;
+	}
 
 }
